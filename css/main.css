@@ -547,7 +547,7 @@ color:#FFF;
 /*** FOOTER ***/
 
 footer {
-  padding: 10% 4rem;
+  padding:5rem 2rem 3rem 2rem;
   background: #FFF;
   display: flex;
   justify-content: space-between;
