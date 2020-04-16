@@ -10,7 +10,7 @@ html {
 }
 
 * {
-  /* margin: 0; */
+  margin: 0;
   padding: 0;
   box-sizing:border-box;
 }
@@ -165,7 +165,6 @@ a.logo img {
 /** SEC 1 **/
 
 #sec1 {
-  background-color: red;
   background-image: url(../assets/img/hero-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -330,6 +329,8 @@ a.logo img {
 
 .about_img_01 img {
   width: 75%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* SOMNIA APP */
@@ -383,6 +384,8 @@ a.logo img {
 
 .about_img_02 img {
   width: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /** SEC 3 **/
@@ -620,6 +623,27 @@ footer {
 }
 .col-right ul li a:hover {
   background: #3662D1;
+}
+
+.tw {
+  width: 40%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.ig {
+  width: 30%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.fb {
+  width: 25%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.li {
+  width: 30%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 /*** FOOTER END ***/
